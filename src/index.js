@@ -15,7 +15,7 @@ module.exports = {
       console.log('A user connected');
 
       socket.on('message', (data) => {
-        console.log('Received message:', data);
+        console.log('Received message:', data.message," by ",data.name, " in room ",data.roomCode);
         io.emit('frontendmessage', data); // Emit to all clients
       });
 
