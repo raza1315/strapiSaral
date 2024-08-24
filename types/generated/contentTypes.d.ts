@@ -368,6 +368,7 @@ export interface ApiRegisterRegister extends Schema.CollectionType {
     singularName: 'register';
     pluralName: 'registers';
     displayName: 'register';
+    description: '';
   };
   options: {
     draftAndPublish: true;

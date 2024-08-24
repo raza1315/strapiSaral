@@ -4,7 +4,8 @@
   "info": {
     "singularName": "register",
     "pluralName": "registers",
-    "displayName": "register"
+    "displayName": "register",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true

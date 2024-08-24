@@ -3,7 +3,7 @@ module.exports = {
     routes: [
       {
         method: 'POST',
-        path: '/auth/local',
+        path: '/login',
         handler: 'auth.login',
         config: {
           policies: [],
